@@ -7,3 +7,7 @@ D:\Documentos\SteamCMD\steamapps\workshop\content\294100\2885998212\Source\CM_Po
 D:\Documentos\SteamCMD\steamapps\workshop\content\294100\2885998212\Source\CM_PocketDimension\obj\Debug\KB_PocketDimension.dll
 C:\Users\ser\Desktop\KB_PocketDimension.dll
 D:\Documentos\SteamCMD\steamapps\workshop\content\294100\2885998212\Source\CM_PocketDimension\obj\Debug\CM_PocketDimension.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PocketDimensionContinued\Source\CM_PocketDimension\obj\Debug\CM_PocketDimension.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PocketDimensionContinued\Source\CM_PocketDimension\obj\Debug\CM_PocketDimension.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PocketDimensionContinued\Source\CM_PocketDimension\obj\Debug\KB_PocketDimension.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\PocketDimensionContinued\1.5\Assemblies\KB_PocketDimension.dll
