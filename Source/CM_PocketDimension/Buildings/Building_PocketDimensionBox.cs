@@ -314,7 +314,9 @@ namespace KB_PocketDimension
 
             // The new map must be connected to a parent on the world map
             var mapParent = (MapParent_PocketDimension)WorldObjectMaker.MakeWorldObject(PocketDimensionDefOf.KB_WorldObject_PocketDimension);
-            mapParent.Tile = this.Map.Tile;
+            //mapParent.Tile = this.Map.Tile;
+            Log.Message("this.Map.Tile: " + this.Map.Tile.ToString());
+            mapParent.Tile = 0;
             mapParent.SetFaction(Faction.OfPlayer);
             Find.WorldObjects.Add(mapParent);
 
@@ -323,7 +325,9 @@ namespace KB_PocketDimension
             Find.World.info.seedString = this.dimensionSeed;
             PocketDimensionUtility.Boxes[this.dimensionSeed] = this;
             mapParent.dimensionSeed = this.dimensionSeed;
-            Map generatedMap = MapGenerator.GenerateMap(size, mapParent, mapParent.MapGeneratorDef, mapParent.ExtraGenStepDefs, null);
+            Map generatedMap = MapGenerator.GenerateMap(size, mapParent, mapParent.MapGeneratorDef, mapParent.ExtraGenStepDefs, null, true);
+            //Map generatedMap = MapGenerator.GenerateMap(size, mapParent, mapParent.MapGeneratorDef, mapParent.ExtraGenStepDefs, null);
+            //Map genMapb = MapGenerator.GenerateMap(size, parent, mapParent.MapGeneratorDef, mapParent.ExtraGenStepDefs, null, true);
             Find.World.info.seedString = cachedSeedString;
 
             // Permanent darkness - seems moot since adding roof and walls...
